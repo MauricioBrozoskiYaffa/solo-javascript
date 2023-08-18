@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sueldo con Pago Extra</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <main class="container col-4 mx-auto">
+        <header class="my-2">
+            <h1 style="text-align: center;">Sueldo Recibido por Horas Extras</h1>
+        </header>
+        <div class="alert alert-info" role="alert" id="resultado">
+            Ingrese las Horas Trabajadas!
+          </div>
+        <form class="form col-12">
+            <div class="form-group my-4">
+                <label>Horas Trabajadas</label>
+                <input type="number" name="horas" id="horas_trabajadas" class="form-control">
+            </div>
+            <div class="form-group my-4">
+                <label>Precio Pagado por Hora</label>
+                <input type="number" name="precio" id="precio_hora" class="form-control">
+            </div>
+            <div class="form-group my-4">
+                <button class="btn btn-primary" id="pro_calc">Calcular Sueldo</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="sueldo.js"></script>
+</body>
+</html>

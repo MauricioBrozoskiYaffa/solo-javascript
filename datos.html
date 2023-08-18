@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agregar y Quitar Usuarios</title>
+ 
+</head>
+<body>
+  <h1 style="text-align: center">Agregar y Eliminar Usuarios</h1>
+
+  <div class="container mt-5">
+    <label for="name">Nombre</label>
+    <input type="text" id="nombre" placeholder="Ingresar su Nombre">
+    <p>   
+    </p>
+    <label for="apellido">Apellido</label>
+    <input type="text" id="apellido" placeholder="Ingresar su Apellido">
+    <p>
+    </p>
+    <input type="button" value="añadir" onclick="añadir();">
+    <input type="button" value="quitar" onclick="quitar();">
+    <p>
+    </p>
+    <div id="lista">
+
+    </div>
+  </div>
+
+  <script src="datos.js"></script>
+</body>
+</html>
